@@ -42,4 +42,4 @@ with open( "salary.txt" , 'r' , encoding = 'UTF-8' ) as file:
      #print(new_wage)
      for i in range(len(new_wage)): 
          x = new_wage[i].split(' - ') # делим список по каждому элементу, убираем знак - 
-         print(x[0].upper() + " - " + str((int(x[1]) * 0.87))) # выполнгяем условие задачи с 13%
+         print(x[0].upper() + " - " + str((int(x[1]) * 0.87))) # выполняем условие задачи с 13%
