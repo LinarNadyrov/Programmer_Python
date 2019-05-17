@@ -28,14 +28,10 @@ else:
 #if email.islower() == True:
 if (re.match(pattern,email).group(1) is None) == False:
          print(re.match(pattern,email).group(1))
-    
-# # #     print("email хорошо")
-# else:
-#           print("email НЕ хорошо")
 
-# print(re.match(pattern,email).group(1))
-# print(re.search(pattern,email).group(1) is None)
-
+# Нужно реализовать в while
+# Нужно реализовать обработку исключений
+# Нужно реализовать - при успешном вводе всего, вывести конечный результат
 
 
 # Задача - 2:
