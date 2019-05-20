@@ -24,9 +24,14 @@ print(os.listdir(os.getcwd()))
 
 # # Задача-2:
 # # Напишите скрипт, отображающий папки текущей директории.
+# Первый вариант
 path = os.listdir()
 for i in path:
-    print(i)
+    if os.path.isdir(i):
+        print(i)
+
+# Второй вариант
+print([i for i in os.listdir() if os.path.isdir(i)])
 
 # Задача-3:
 # Напишите скрипт, создающий копию файла, из которого запущен данный скрипт.
