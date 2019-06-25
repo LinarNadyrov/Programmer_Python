@@ -1,0 +1,159 @@
+body {
+    background-color: #f8f8f8;
+}
+
+.main_menu {
+    list-style: none;
+}
+
+.main_menu li a {
+    color: forestgreen;
+    font-size: 18px;
+    font-family: serif;
+    font-style: oblique;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.main_menu li a:hover {
+    color: aquamarine;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.footer {
+    color: #ccc;
+    display: flex;
+    justify-content: center;
+}
+
+.headline {
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+}
+
+.short-text {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.short-text:first-letter {
+    font-size: 30px;
+    font-family: monospace;
+    font-style: normal;
+}
+
+.long-text {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.long-text:first-letter {
+    font-size: 30px;
+    font-family: monospace;
+}
+
+.table-characteristic {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.table-characteristic td {
+    border: 1px solid grey;
+    text-align: left;
+    padding: 4px;
+}
+
+.test-table {
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+
+.test-table td {
+    border: 1px solid grey;
+    padding: 10px;
+    text-align: center;
+}
+
+.test-table tr:first-child {
+    height: 70px;
+    text-align: center;
+}
+
+.list {
+    color: darkslategray;
+    font-family: Times New Roman;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 16px;
+    list-style-image: url(img/list1.jpg)
+}
+
+input:focus {
+    text-transform: capitalize;
+}
+textarea:focus{
+    text-transform: capitalize;
+}
+input[type="text"] {
+    display: flex;
+    width: 300px;
+    height: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+input[type="email"] {
+    display: flex;
+    width: 300px;
+    height: 20px;
+    font-size: 14px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+input[type="email"]:focus {
+    color: darkblue;
+    background-color: beige;
+}
+
+textarea {
+    display: flex;
+    color: gray;
+    width: 500px;
+    height: 200px;
+    font-size: 14px;
+    font-style: italic;
+    color: darkslategray;
+}
+
+.img-outline {
+    outline: 2px solid grey;
+}
+
+.img-outline:hover {
+    outline: none;
+}
+
+.title {
+    color: darkcyan;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.p_title {
+    text-align: center;
+    font-style: italic;
+    color: #484343;
+}

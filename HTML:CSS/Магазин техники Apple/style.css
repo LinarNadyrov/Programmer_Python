@@ -1,0 +1,250 @@
+body {
+    background: #f8f8f8;
+}
+
+.container {
+    width: 700px;
+    margin: 0 auto;   
+}
+
+.header {
+    height: 120px;
+    background: url(img/header.png);
+} 
+
+.logo {
+    width: 100px;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 50px;
+    float: left; 
+}
+
+.menu_wrap {
+    margin-top: 32px;
+    float: right;
+}
+
+.menu li {
+    text-transform: uppercase;
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 600;
+    display: inline-block;
+    width: 150px;
+}
+
+.menu li a {
+    color: darkgreen;
+    text-decoration: none;
+    text-align: center;
+    height: 100px;
+}
+
+.menu li a:hover {
+    background-color: #B2DFDB; 
+    padding: 3px;
+    border-radius: 8px;
+    color: black;
+}
+
+.heading {
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    background-color: #eaeaea;
+    overflow: hidden;
+}
+
+.footer {
+    background: #BDBDBD;
+    height: 80px;
+    clear: both;
+}
+
+#textfooter {
+    float: right;
+    margin-top: 50px;
+    margin-right: 50px;
+}
+
+.short_description {
+    color: #707070;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 16px;
+}
+
+.description {
+    color: #484343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.description:first-letter, 
+.short_description:first-letter {
+    font-style: oblique;
+    color: brown;
+    font-size: 25px;
+    font-family: arial;
+}
+
+h4 {
+    color: #484343;
+    font-size: 16px;
+}
+
+.heading2 {
+    clear: both;
+}
+
+.characteristics {
+    color: green;
+    font: 16px monospace;
+    border: 2px ridge darkgreen;
+    list-style-image: url(img/list.png);
+    width: 650px;
+    clear: both;
+}
+
+fieldset {
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+
+input[type="text"],
+input[type="email"]{
+    height: 20px;
+    width: 200px;
+    font-size: 12px;
+    color: darkgreen;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+input[type="email"]:focus{
+    background-color: #B2DFDB;
+    color: brown;
+}
+
+#field {
+    font-size: 12px;
+    color: darkgreen;
+    font-style: italic;
+    text-transform: capitalize;
+}
+
+form {
+    font-size: 14px;
+    color: #00796B;
+}
+
+#name_form {
+    color: #000;
+}
+
+/*рамка на картинках на страницах товара*/
+
+img[alt="ipad pro"],
+img[alt="phone xr"],
+img[alt="phone xs"] {
+    outline: 3px solid darkgreen;
+    float: left;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+img[alt="ipad pro"]:hover,
+img[alt="phone xr"]:hover,
+img[alt="phone xs"]:hover {
+    outline: none;
+}
+
+/*таблицы на страницах товара: */
+.table {
+    border: 1px solid #000;
+    width: 700px;
+    height: 300px;
+    border-collapse: collapse;
+}
+
+.table td {
+    border: 1px solid black;
+    vertical-align: top;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.name {
+    font-size: 12px;
+    text-align: center;
+    font-weight: bold;
+    height: 30px;
+}
+.first,
+.last{
+    height: 25px;
+    background-color: #B2DFDB;
+}
+
+.last {
+    font-size: small;
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: lighter;
+}
+
+/*ссылки, кнопки на страницах */
+.linklink {
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkgreen;
+    float: left;
+    margin-left: 15px;
+    width: 215px;
+    height: 320px;
+}
+
+.linklink:hover {
+    color: #B2DFDB;    
+}
+
+.linklink:active {
+    color: black;
+}
+
+.buy {
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.buy:hover {
+    background-color: yellow; 
+    padding: 3px;
+    border-radius: 8px;
+    color: black;
+}
+
+.buy:active {
+    color: #B2DFDB;
+}
+
+.linklink_contacts {
+    font-size: 16px;
+    list-style-type: none;
+    font-weight: 600;
+    text-decoration: none;
+    color: darkgreen;
+}
+
+linklink_contacts:hover {
+     color: #B2DFDB;
+}
