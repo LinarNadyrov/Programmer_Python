@@ -21,6 +21,7 @@ body {
 .container {
     width: 1366px;
     margin: 0 auto;
+    position: relative;
 }
 
 .header {
@@ -32,13 +33,20 @@ body {
 }
 
 .slider {
+/*    width: 1366px;*/
     height: 800px;
+/*    padding-left: 100px;*/
     background-image: url(img/slider-img.jpg)
 }
 
 .slider-products {
     height: 800px;
     background-image: url(img/slider.jpg)
+}
+
+.slider-showroom {
+    height: 800px;
+    background-image: url()
 }
 
 .slider-history {
@@ -122,7 +130,8 @@ body {
 /*    position: absolute;*/
     width: 1170px;
 /*    width: 1366px;*/
-    height: 5710px;
+/*    height: 5710px;*/
+    height: 75px;
     margin-top: 140px;
     bottom: 19px;
     text-align: center;
@@ -155,3 +164,212 @@ body {
 .circle:hover {
     background-color: #212121;
 }
+
+
+.mobile-app {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 125px;
+    padding-left: 98px;
+    height: 391px;
+    width: px;
+    background-image: url(img/mobile-app.jpg);
+}
+
+.mobile-app-tag {
+    margin-bottom: 12px;
+    color: #6c6c6c;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    color: #6c6c6c;
+    letter-spacing: 1.8px;
+}
+
+.mobile-app-name {
+    width: 407px;
+    margin-bottom: 12px;
+
+    color: #212121;
+    font-size: 57px;
+    letter-spacing: -2.8px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.mobile-app-description {
+    margin-bottom: 33px;
+    color: #6c6c6c;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.footer {
+	background-color: #f7f7f7;
+	padding-top: 120px;
+	padding-left: 100px;
+	padding-right: 100px;
+}    
+
+.contact {
+	float: left;
+	width: 221px;
+	height: 160px;
+	margin-right: 80px;
+}
+
+.footer-title {
+	color: #6c6c6c;
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-bottom: 24px;
+	letter-spacing: 1px;
+}
+
+.footer-text {
+	color: #212121;
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 22px;
+}
+
+.contact .spacing {
+	height: 20px;
+}
+
+.useful-information	{
+	float: left;
+	width: 422px;
+	height: 160px;
+	margin-right: 80px;
+	padding: 0;
+}
+
+.useful-links1 .spacing {
+	display: inline-block;
+	width: 100px;
+}
+
+.useful-links {
+	display: inline-block;
+	height: 123px;
+}
+
+.useful-link {
+	display: block;
+	color: #212121;
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 26px;
+	text-transform: uppercase;
+	list-style-type: none;
+	text-decoration: none;
+}
+
+.email {
+	float: left;
+	width: 350px;
+	height: 160px;
+}
+
+.email-form {
+	height: 45px;
+	width: 350px;
+	border: 1px solid #d9dee1;
+	margin-top: 20px;
+}
+
+input[name="email"] {
+	float: left;
+	height: 100%;
+	width: 80%;
+	border: none;
+	background-color: #ffffff;
+	color: #6c6c6c;
+	font-size: 14px;
+	font-weight: 300;
+	line-height: 22px;
+	padding-left: 20px;
+}
+
+input[name="email"]:focus {
+	color: #212121;
+}
+
+button.submit-btn {
+	float: left;
+	width: 14%;
+	height: 100%;
+	border: none;
+	background-color: #ffffff;
+}
+
+button.submit-btn img {
+	width: 100%;
+	height: 100%;
+}
+
+button.submit-btn:hover {
+	outline: 1px solid #d9dee1;
+}
+
+.footer-footer {
+	padding-top: 216px;
+	padding-bottom: 30px;
+}
+
+.copy {
+	display: inline-block;
+	color: #6c6c6c;
+	font-size: 12px;
+	font-weight: 700;
+	text-transform: uppercase;
+	margin-right: 160px;
+}
+
+.social-links {
+	display: inline-block;
+	width: 140px;
+	height: 28px;
+	margin-right: 172px;
+}
+
+.social-link {
+	display: inline-block;
+	width: 28px;
+	height: 28px;
+	margin-right: 5px;
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.social-link:last-child {
+	margin-right: 0px;
+}
+
+.terms {
+	display: inline-block;
+}
+
+.terms .copy {
+	margin-right: 0px;
+	text-decoration: none;
+}
+
+.hero {
+	background-color: #f5f5f5;
+	height: 360px;
+}
+
+.hero-title {
+	padding-top: 260px;
+	color: #212121;
+	font-size: 62px;
+	font-weight: 100;
+	line-height: 72px;
+	padding-left: 98px;
+}
+
